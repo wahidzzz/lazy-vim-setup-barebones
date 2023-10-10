@@ -71,7 +71,6 @@ return {
       },
     },
   },
-
   -- add telescope-fzf-native
   {
     "telescope.nvim",
