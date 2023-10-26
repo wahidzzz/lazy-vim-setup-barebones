@@ -16,13 +16,7 @@ require("lazy").setup({
     -- { import = "lazyvim.plugins.extras.lang.typescript" },
     -- { import = "lazyvim.plugins.extras.lang.json" },
     -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
-    -- import/override with your disabled_plugins
-    -- Lazy
-    {
-      "olimorris/onedarkpro.nvim",
-      priority = 1000, -- Ensure it loads first
-    },
-
+    -- import/override with your plugins
     {
       import = "lazyvim.plugins.extras.util.project",
     },
@@ -66,7 +60,7 @@ require("lazy").setup({
     -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
   install = {
-    colorscheme = { "tokyonight", "habamax", "onedark" },
+    colorscheme = { "tokyonight", "habamax" },
   },
   checker = {
     enabled = true,
