@@ -61,7 +61,12 @@ require("lazy").setup({
     -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
   install = {
-    colorscheme = { "tokyonight", "habamax" },
+    colorscheme = {
+      "craftzdog/solarized-osaka.nvim",
+      lazy = false,
+      priority = 1000,
+      opts = {},
+    },
   },
   checker = {
     enabled = true,
